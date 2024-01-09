@@ -1,0 +1,292 @@
+h1{
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.h1SpanSale{
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    width: 82%;
+    height: 1px;
+    background: #DDD;
+}
+
+span{
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    color: #8B8B8B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.hidden_button{
+    display: none;
+}
+
+.showAllSale{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 30px;
+}
+
+.saleItem{
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid rgb(166, 165, 165);
+    border-radius: 12px;
+    height: 530px;
+   
+   
+}
+
+.saleItem .saleItem{
+    position: absolute;
+   
+}
+
+.imgSale{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+ 
+}
+
+.twoP{
+   
+    width: 99%;
+
+}
+
+ .twoP .pSale{
+    color: #282828;
+    text-align: start;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -30px;
+
+}
+
+.twoP .prices{
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: -45px;
+    margin-left: 10px;
+}
+
+.twoP .prices .priceWithDiscont{
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.twoP .prices .initialPrice{
+    color: #8B8B8B;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+
+.discont_percent{
+    position: relative;
+    top: -336px;
+    right: -76%;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: #393;
+    width: 40px;
+}
+
+@media  screen and (max-width: 1440px) {
+    .imgSale{
+        height: 292px;
+    }    
+    .saleItem{
+        width: 280px;
+}
+.line{
+    width: 77%;
+}
+.showAllSale{
+    gap: 10px;
+    margin: 30px;
+}
+.discont_percent{
+    top: -285px;
+}
+.saleItem{
+    height: 480px;
+}
+}
+
+@media  screen and (max-width: 1200px) {
+    .imgSale{
+        height: 292px;
+    }    
+    .saleItem{
+        width: 220px;
+}
+.line{
+    width: 75%;
+}
+.showAllSale{
+    gap: 10px;
+    margin: 20px;
+}
+.discont_percent{
+    right: -68%;
+}
+}
+
+@media  screen and (max-width: 1000px) {
+    .imgSale{
+        height: 250px;
+    }    
+    .saleItem{
+        width: 200px;
+        height: 450px;
+}
+.line{
+    width: 69%;
+}
+.showAllSale{
+    gap: 10px;
+    margin: 20px;
+}
+.discont_percent{
+    top: -245px;
+}
+}
+
+@media  screen and (max-width: 780px) {
+    .imgSale{
+        height: 250px;
+        width: 330px;
+        object-fit: cover;
+   }   
+   .saleItem{
+        width: 330px;
+        
+}
+.showAllSale{
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+h1{
+    font-size: 56px;
+}
+.line{
+    width: 60%;
+}
+.discont_percent{
+    right: -78%;
+}
+}
+
+@media  screen and (max-width: 480px) {
+    .imgSale{
+        height: 250px;
+        width: 200px;
+        object-fit: cover;
+   }   
+   .saleItem{
+        width: 200px;
+}
+.showAllSale{
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+h1{
+    font-size: 48px;
+}
+span{
+    font-size: 14px;
+}
+.line{
+    width: 45%;
+}
+.discont_percent{
+    right: -67%;
+}
+.twoP .prices .priceWithDiscont{
+    font-size: 36px;
+}
+.twoP .prices .initialPrice{
+    font-size: 18px;
+}
+}
+
+@media  screen and (max-width: 360px) {
+    .imgSale{
+        height: 240px;
+        width: 300px;
+   }   
+   .saleItem{
+        width: 300px;
+        height: 400px;
+}
+.showAllSale{
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+h1{
+    font-size: 48px;
+}
+span{
+    opacity: 0;
+}
+.line{
+    display: none;
+}
+.discont_percent{
+    top: -236px;
+    right: -76%;
+}
+.hidden_button{
+    display: block;
+    padding: 8px 16px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    color: #8B8B8B;
+    background: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+}

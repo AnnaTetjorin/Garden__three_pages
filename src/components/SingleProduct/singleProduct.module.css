@@ -1,0 +1,420 @@
+
+.mainCategoriesToolsButtons{
+    display: flex;
+    margin: 30px;
+    margin-top: 60px;
+}
+
+.mainCategoriesToolsButtons .shortLine{
+    width: 20px;
+    height: 1px;
+    background: #DDD;
+    margin-top: 17px;
+}
+
+.mainCategoriesToolsButtons .mainButton{
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    color:  #8B8B8B;
+    background: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.mainCategoriesToolsButtons .categoryButton{
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    color: #8B8B8B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.mainCategoriesToolsButtons .toolsButton{
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    color: #8B8B8B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.mainCategoriesToolsButtons .secateursButton{
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.divSingleProduct{
+    display: flex;
+    gap: 40px;
+    margin: 30px;
+}
+
+.divSingleProduct .productItemImage{
+    height: 270px;
+    width: 50%;
+}
+
+.imgProduct{
+    width: 700px;
+}
+
+.containerTitlePrice .h3Title{
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.divPrices{
+    display: flex;
+    gap: 20px;
+}
+
+.divPrices .priceWithDiscont{
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.divPrices .initialPrice{
+    color: #8B8B8B;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-top: 50px;
+  
+}
+
+
+.divPrices .discont_percent{
+    position: relative;
+    top: 30px;
+    right: -15px;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: #393;
+    width: 30px;
+    height: 20px;
+}
+
+.counterUndButton .addButton{
+    background-color: #393;
+    display: flex;
+    padding: 16px 76px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    margin-left: 40px;
+}
+
+.productDescription{
+    margin-top: 52px;
+}
+
+.productDescription .h6{
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.productDescription .text{
+    overflow: hidden;
+    color: #282828;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 600px;
+    white-space: pre-line;
+}
+
+.counterUndButton{
+    display: flex;
+}
+
+.divCounter .minusButton{
+    width: 90px;
+    height: 58px;
+    background: #FFF;
+    color: #8B8B8B;
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: 1px solid #DDD;
+}
+
+
+.divCounter .countButton{
+    width: 96px;
+    height: 58px;
+    background: #FFF;
+    color: #282828;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: 1px solid #DDD;
+}
+
+
+.divCounter .plusButton{
+    width: 90px;
+    height: 58px;
+    background: #FFF;
+    color: #8B8B8B;
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: 1px solid #DDD;
+}
+
+@media  screen and (max-width: 1000px) {
+    .imgProduct{
+        width: 500px;
+    }
+    .divCounter .minusButton{
+        width: 58px;
+    }
+    
+    .divCounter .countButton{
+        width: 58px;
+   }
+    
+    .divCounter .plusButton{
+        width: 58px;
+   }
+   .counterUndButton .addButton{
+     padding: 16px 36px;
+   }
+   .containerTitlePrice{
+    margin-left: 10px;
+    margin-top: -50px;
+   }
+   .divPrices{
+    margin-top: -60px;
+   }
+}
+
+@media  screen and (max-width: 768px) {
+    .imgProduct{
+        width: 380px;
+    }
+    .containerTitlePrice .h3Title{
+        font-size: 32px;
+        margin-top: 50px;
+    }
+    .counterUndButton{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -10px;
+    }
+   .counterUndButton .addButton{
+     padding: 16px 26px;
+     margin-left: -5px;
+   }
+   .containerTitlePrice{
+    
+    margin-top: -50px;
+   }
+   .h3Title{
+    font-size: 32px;
+   }
+   .divPrices{
+    margin-top: -70px;
+   }
+   .productDescription .text, .h6{
+      margin-left: -390px;
+   }
+   .divPrices .priceWithDiscont{
+    font-size: 56px;
+  }
+}
+
+@media  screen and (max-width: 480px) {
+    .imgProduct{
+        width: 200px;
+    }
+    .counterUndButton{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -20px;
+    }
+   .counterUndButton .addButton{
+     padding: 6px 1px;
+     width: 190px;
+     margin-left: -1px;
+   }
+   .containerTitlePrice{
+     margin-top: -20px;
+     margin-left: -30px;
+   }
+   .containerTitlePrice .h3Title{
+    font-size: 28px;
+    margin-left: -205px;
+   }
+   .divPrices{
+    margin-top: -20px;
+   }
+   .divPrices .priceWithDiscont{
+     font-size: 40px;
+   }
+   .productDescription .text, .h6{
+      margin-left: -220px;
+      max-width: 400px;
+   }
+   .divPrices .discont_percent{
+    position: relative;
+    top: 10px;
+    right: 275px;
+}
+.divCounter .minusButton{
+    width: 48px;
+    height: 48px;
+}
+
+.divCounter .countButton{
+    width: 48px;
+    height: 48px;
+}
+
+.divCounter .plusButton{
+    width: 48px;
+    height: 48px;
+}
+.productItemImage{
+    margin-top: 110px;
+}
+.mainCategoriesToolsButtons{
+    display: none;
+}
+}
+
+
+@media  screen and (max-width: 360px) {
+    .imgProduct{
+        width: 300px;
+    }
+    .counterUndButton{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -20px;
+        margin-left: -150px;
+    }
+   .counterUndButton .addButton{
+     padding: 6px 1px;
+     width: 190px;
+     margin-left: -1px;
+   }
+
+   .counterUndButton .counter{
+    margin-left: 20px;
+   }
+   .containerTitlePrice{
+     margin-top: -30px;
+     margin-left: 210px;
+   }
+   .containerTitlePrice .h3Title{
+    font-size: 28px;
+    margin-top: -355px;
+
+   }
+   .divPrices{
+    margin-top: 300px;
+    margin-left: -150px;
+   }
+   .divPrices .priceWithDiscont{
+     font-size: 40px;
+   }
+   .productDescription .text, .h6{
+      margin-left: -220px;
+      max-width: 400px;
+   }
+   .divPrices .discont_percent{
+    position: relative;
+    top: -280px;
+    right: 25px;
+}
+.divCounter .minusButton{
+    width: 48px;
+    height: 48px;
+}
+
+.divCounter .countButton{
+    width: 48px;
+    height: 48px;
+}
+
+.divCounter .plusButton{
+    width: 48px;
+    height: 48px;
+}
+.productItemImage{
+    margin-top: 80px;
+}
+.mainCategoriesToolsButtons{
+    display: none;
+}
+
+.divSingleProduct{
+    flex-direction: column;
+}
+}

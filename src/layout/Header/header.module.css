@@ -1,0 +1,119 @@
+.divHeader{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(205, 204, 204);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 470px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+nav ul li{
+    list-style: none;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.shoppingCart{
+    width: 48px;
+    height: 48px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.menu{
+    display: none;
+}
+
+
+@media  screen and (max-width: 1490px) {
+    nav{
+        gap: 360px;
+    }
+}
+
+@media  screen and (max-width: 1440px) {
+    nav{
+        gap: 340px;
+    }
+    nav ul li{
+        font-size: 20px;
+    }
+}
+
+@media  screen and (max-width: 1000px) {
+    nav{
+        gap: 100px;
+    }
+    nav ul li{
+        font-size: 20px;
+    }
+   
+}
+
+@media  screen and (max-width: 899px) {
+    nav{
+        gap: 75px;
+    }
+    nav ul li{
+        font-size: 20px;
+    }
+   
+}
+
+@media  screen and (max-width: 768px) {
+    nav{
+        gap: 25px;
+    }
+    nav ul li{
+        font-size: 20px;
+    }
+   
+}
+
+@media  screen and (max-width: 480px) {
+    .logo{
+    width: 44px;
+    height: 44px;
+}
+    .shoppingCart{
+    width: 32px;
+    height: 32px;
+    margin-left: 240px;
+}
+
+.menu{
+    display: block;
+    width: 44px;
+    height: 44px;
+}
+    nav ul{
+      display: none;
+
+    }
+   
+ 
+
+}
+
+@media  screen and (max-width: 360px) {
+    .shoppingCart{
+    margin-left: 140px;
+}
+}
